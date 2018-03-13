@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <!-- Splash Activity theme. -->
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- This Style Contains bse attributes -->
+    <style name="baseStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- This Style for Cards -->
+    <style name="cardStyle" parent="baseStyle">
+        <item name="android:layout_margin">@dimen/card_margin</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- This Style for Prayer Name Style -->
+    <style name="prayerNameStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:padding">@dimen/text_card_padding</item>
+        <item name="android:textColor">@color/prayer_item_text_color</item>
+        <item name="android:textSize">@dimen/prayer_item_text_size</item>
+        <item name="android:layout_marginRight">@dimen/text_card_margin</item>
+        <item name="android:layout_marginEnd">@dimen/text_card_margin</item>
+        <item name="android:layout_marginStart">@dimen/text_card_margin</item>
+        <item name="android:layout_marginLeft">@dimen/text_card_margin</item>
+        <item name="android:textStyle">italic|bold</item>
+    </style>
+
+    <!-- This Style for Prayer Time Style -->
+    <style name="prayerTimeStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:padding">@dimen/text_card_padding</item>
+        <item name="android:text">05.30</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/prayer_item_time_text_size</item>
+
+    </style>
+
+    <!-- This Style for country and Hijry Date Style -->
+    <style name="countryAndDateStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/country_hijri_date_text_margin</item>
+        <item name="android:layout_marginLeft">@dimen/country_hijri_date_text_margin</item>
+        <item name="android:layout_marginTop">@dimen/country_hijri_date_text_margin</item>
+        <item name="android:layout_marginEnd">@dimen/country_hijri_date_text_margin</item>
+        <item name="android:layout_marginStart">@dimen/country_hijri_date_text_margin</item>
+        <item name="android:textSize">@dimen/country_hijri_date_text_size</item>
+        <item name="android:textStyle">italic|bold</item>
+
+    </style>
+
+
+</resources>

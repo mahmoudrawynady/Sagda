@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Theme Colors -->
+    <color name="colorPrimary">#00AA8D</color>
+    <color name="colorPrimaryDark">#008975</color>
+    <color name="colorAccent">#00BF9A</color>
+
+    <!-- Screens Colors -->
+    <color name="white_background">#FFFFFF</color>
+    <color name="card_background">#FFC107</color>
+    <color name="prayer_item_text_color">#F5F5F5</color>
+    <color name="Label">#FAFAFA</color>
+    <color name="Time_Label">#E0E0E0</color>
+
+
+</resources>

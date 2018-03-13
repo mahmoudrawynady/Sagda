@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Details Activity Strings -->
+    <string name="activity_title">أوقات الصلاة</string>
+    <string name="fjr">الفجر</string>
+    <string name="dhr">الظهر</string>
+    <string name="asr">العصر</string>
+    <string name="maghreb">المغرب</string>
+    <string name="Isha">العشاء</string>
+
+    <!-- Maps Activity ٍStrings -->
+    <string name="permission_message">لابد من السماع للوصول الى الموقع اذا اردت مشاهدة موقعك على الخريطة.</string>
+    <string name="request_permission_message">الموقع غير مفعل، لابد من السماح لاذن الوصول لموقعك.</string>
+    <string name="loading_message">تحميل، من فضلك انتظر ...</string>
+    <string name="connection_error">لا يوجد اتصال بالانترنت، من فضك تاكد من اتصالاك بالانترنت ومن ثم معاودة المحاولة.</string>
+    <string name="enable_button">تفعيل</string>
+    <string name="cancel_button">رفض</string>
+    <string name="current_location">مكانك الان</string>
+    <string name="location_enable_message">من فضلك قم بتفعيل الموقع؟</string>
+    <string name="location_button_content_description">يمكنك هذا الزر من معرفة وتحديد موقعك على الخريطة.</string>
+    <string name="detail_button_content_description">يمكنك هذا الزر من الحصول على اوقات الصلاة ومشاهدتها.</string>
+
+    <!-- Connection Errors ٍٍٍٍStrings -->
+    <string name="not_found">لم تعد الخدمة متوفرة، حاول  لاحقا.</string>
+    <string name="server_error">خطأ فى السيرفر ، حاول لاحقا.</string>
+    <string name="service_unavailable">الخدمة ليست متوفرة حاليا،ربما هناك بعض التصليحات فى السيرفر حاول لاحقا.</string>
+    <string name="connection_time_out">استغرق التحميل وقت كبير، تاكد من اتصاللك بالانترنت وحاول مجددا.</string>
+</resources>

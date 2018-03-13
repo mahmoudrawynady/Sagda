@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Maps Activity Dimen -->
+    <dimen name="location_button_margin">32dp</dimen>
+    <dimen name="map_buttons_width_height">60dp</dimen>
+
+    <!-- Prayer Details Activity -->
+    <dimen name="text_card_padding">8dp</dimen>
+    <dimen name="text_card_margin">8dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="card_corner_radius">2dp</dimen>
+    <dimen name="card_elevation">10dp</dimen>
+    <dimen name="prayer_item_text_size">22sp</dimen>
+    <dimen name="prayer_item_time_text_size">22sp</dimen>
+    <dimen name="country_hijri_date_text_size">24sp</dimen>
+    <dimen name="country_hijri_date_text_margin">16dp</dimen>
+    <dimen name="line_margin">16dp</dimen>
+    <dimen name="line_view__margin_top">24dp</dimen>
+    <dimen name="line_view_height">2dp</dimen>
+
+    <!-- Splash Activity dimen -->
+    <dimen name="splash_logo_text_size">60sp</dimen>
+
+</resources>

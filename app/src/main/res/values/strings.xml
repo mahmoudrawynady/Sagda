@@ -1,0 +1,42 @@
+<resources>
+    <!-- App Strings -->
+    <string name="app_name" translatable="false">Sagda</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+
+    <!-- Details Activity Strings -->
+    <string name="activity_title">Prayer Times</string>
+    <string name="fjr">El-Fjr</string>
+    <string name="dhr">El-Dhr</string>
+    <string name="asr">El-Asr</string>
+    <string name="maghreb">El-Maghreb</string>
+    <string name="Isha">El-Isha</string>
+
+    <!-- Maps Activity Strings-->
+    <string name="permission_message">Permission must be granted when you want to show your Location.</string>
+    <string name="request_permission_message">Location disabled, Permission must be granted.</string>
+    <string name="loading_message">Loading. please wait...</string>
+    <string name="connection_error">There is no Connection, please check your Connection and try again.</string>
+    <string name="location_enable_message">You should enable Location!</string>
+    <string name="enable_button">Enable</string>
+    <string name="cancel_button">Disable</string>
+    <string name="current_location">Current Location</string>
+    <string name="location_button_content_description">This Button allows you to get and show your Location on the Map.</string>
+    <string name="detail_button_content_description">This Button allows you to get and show your Prayer Times.</string>
+    <string name="message_when_map_and_no_connection">There is no Connection, Maps will not be ready until Connection.</string>
+
+    <!-- splash Activity Strings -->
+    <string name="sagda" translatable="false">Sagda</string>
+
+    <!-- Static Testing Strings -->
+    <string name="egypt" translatable="false">Egypt</string>
+    <string name="hijry_date" translatable="false">22 Ramadan 1943.</string>
+    <string name="time" translatable="false">05.00</string>
+
+
+    <!-- Connection Errors ٍٍٍٍStrings -->
+    <string name="connection_time_out">Connection Time Out, Please check Your Connection and try again.</string>
+    <string name="not_found">Prayer Times Not found.</string>
+    <string name="service_unavailable">The Service now is Unavailable, please tray again later.</string>
+    <string name="server_error">There are Error in the Server, try again later.</string>
+
+</resources>

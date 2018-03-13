@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/baseStyle"
+    android:orientation="vertical"
+    tools:context="com.example.mahmoudrawy.eladan.Views.Views.PrayerDetails">
+
+
+    <LinearLayout
+        style="@style/baseStyle"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TXV_countryName"
+            style="@style/countryAndDateStyle"
+            android:text="@string/egypt" />
+
+        <TextView
+            android:id="@+id/TXV_hijryDate"
+            style="@style/countryAndDateStyle"
+            android:text="@string/hijry_date" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_view_height"
+            android:layout_marginLeft="@dimen/line_margin"
+            android:layout_marginRight="@dimen/line_margin"
+            android:layout_marginTop="@dimen/line_view__margin_top"
+            android:background="@color/Time_Label" />
+
+        <android.support.v7.widget.CardView
+            style="@style/cardStyle"
+            app:cardCornerRadius="@dimen/cardview_default_radius"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                style="@style/baseStyle"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    style="@style/baseStyle"
+                    android:background="@color/card_background"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TXV_elFajrName"
+                        style="@style/prayerNameStyle"
+                        android:text="@string/fjr" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    style="@style/baseStyle"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TXV_elFajrTime"
+                        style="@style/prayerTimeStyle" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/cardStyle"
+            app:cardCornerRadius="@dimen/cardview_default_radius"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                style="@style/baseStyle"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    style="@style/baseStyle"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TXV_elDohrName"
+                        style="@style/prayerNameStyle"
+                        android:text="@string/dhr" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    style="@style/baseStyle"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TXV_elDohrTime"
+                        style="@style/prayerTimeStyle" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/cardStyle"
+            app:cardCornerRadius="@dimen/cardview_default_radius"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                style="@style/baseStyle"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    style="@style/baseStyle"
+                    android:background="@color/card_background"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TXV_elAsrName"
+                        style="@style/prayerNameStyle"
+                        android:text="@string/asr" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    style="@style/baseStyle"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TXV_elAsrTime"
+
+                        style="@style/prayerTimeStyle" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/cardStyle"
+            app:cardCornerRadius="@dimen/cardview_default_radius"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                style="@style/baseStyle"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    style="@style/baseStyle"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TXV_elMaghrebName"
+
+                        style="@style/prayerNameStyle"
+                        android:text="@string/maghreb" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    style="@style/baseStyle"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TXV_elMaghrebTime"
+
+                        style="@style/prayerTimeStyle" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/cardStyle"
+            app:cardCornerRadius="@dimen/cardview_default_radius"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                style="@style/baseStyle"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    style="@style/baseStyle"
+                    android:background="@color/card_background"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TXV_elAishaName"
+
+                        style="@style/prayerNameStyle"
+                        android:text="@string/Isha" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    style="@style/baseStyle"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TXV_elAishTime"
+
+                        style="@style/prayerTimeStyle" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
